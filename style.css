@@ -1,0 +1,77 @@
+@font-face {
+  font-family: figtree;
+  src: url(Figtree-Regular.ttf);
+}
+
+@font-face {
+  font-family: figtreeBold;
+  src: url(Figtree-Bold.ttf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-color: #F4D04E;
+  font-family: "figtree", Arial, sans-serif;
+  overflow: hidden;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 9px 9px 0px 0px;
+  width: 400px;
+  height: auto;
+  padding: 30px;
+  background-color: white;
+}
+
+.tags {
+  display: flex;
+  font-family: figtreeBold;
+  margin: 15px 0px;
+}
+
+.tags > * {
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+  background-color: #F4D04E;
+}
+
+.greg {
+  margin-top: 20px
+}
+
+.description {
+  color: rgb(153, 145, 145);
+  line-height: 1.6;
+}
+
+h2 {
+  margin: 15px 0;
+  font-family: figtreeBold;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+h2:hover {
+  color: #F4D04E;
+}
+
+
+
+
+
